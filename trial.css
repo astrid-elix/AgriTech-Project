@@ -1,0 +1,52 @@
+.Heading-clien-color{
+
+    color: rgb(255, 255, 255);
+
+}
+
+.dashboard{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    /* border: 2px solid white; */
+    gap: 50px;
+}
+
+.dashboard-box{
+border: 2px solid rgb(22, 21, 21);
+width: 20vw;
+height: 25vh;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: column;
+gap: 10px;
+}
+
+.Soil-moisture{
+    background-color: rgb(15, 11, 11);
+   
+}
+.Water-level{
+    background-color: rgb(14, 16, 19)
+  
+}
+
+.head-dashboard{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 21PX;
+color: aqua;
+}
+
+#Soil-moisture-info{
+
+    color: rgb(241, 240, 239);
+    font-size: 17px;
+
+}

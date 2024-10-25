@@ -1,0 +1,138 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+
+.navigation{
+
+    display: flex;
+height: 50px;
+background-color: rgb(36, 34, 34);
+align-items: center;
+justify-content: center;
+}
+
+.text-logo{
+    font-family:fantasy;
+    font-size: 21px;
+}
+.text-logo-a{
+text-decoration: none;
+color: aliceblue;
+}
+
+.msg-box{
+
+border: 2px solid rgb(184, 180, 180);
+border-radius: 30px;
+width: 68vw;
+margin: auto;
+margin-top: 35px;
+height: 74vh;
+padding: 35px;
+background-color: rgb(46, 46, 46)
+
+}
+
+.message{
+background-color: gray;
+padding: 7px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px,1px;
+margin-top: 15px;
+border: 2px solid rgb(128, 127, 127);
+width: 30%;
+height: auto;
+border-radius: 10px;
+overflow-wrap: break-word;
+/* text-overflow:ellipsis; */
+}
+
+.right{
+float: right;
+clear: both;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.msg-show{
+/* border: 2px solid white; */
+height: 60vh;
+padding: 20px;
+background-color: rgb(28, 29, 29);
+overflow-y:auto;
+
+
+}
+.msg-show::-webkit-scrollbar{
+background-color: rgb(83, 82, 82);
+}
+.msg-show::-webkit-scrollbar-thumb{
+    background-color: rgb(156, 156, 156);
+}
+
+.msg-send{
+
+    /* border:  2px solid white; */
+    margin: 25px;
+    height: 38px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#msg-input{
+
+    width: 50vw;
+    border: 2px solid rgb(75, 74, 74);
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(133, 128, 128);
+}
+#msg-input::placeholder{
+
+    color: white;
+ opacity: 0.5;
+}
+
+.send-btn{
+    padding: 10px;
+    background-color: rgb(116, 114, 114);
+    border: 1px solid rgb(87, 86, 86);
+    border-radius: 15px;
+    width: 70px;
+    color: white;
+    cursor: pointer;
+}
+.send-btn:hover{
+    background-color: rgb(148, 146, 146)
+}
+
+.userjoined{
+    color: brown;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.you{
+
+color: rgb(20, 236, 236);
+}
+
+.others{
+color: rgb(253, 236, 0);
+}
+.seller{
+    color: rgb(3, 252, 65);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
